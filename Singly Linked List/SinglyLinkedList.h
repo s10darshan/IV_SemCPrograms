@@ -4,17 +4,18 @@
 
 #ifndef IV_SEM_SINGLYLINKEDLIST_H
 #define IV_SEM_SINGLYLINKEDLIST_H
-struct Node {
+typedef struct Node {
     int data;
     struct Node* next;
-};
+}Node;
 
+Node* newNode(const int);
 void displayList();
-void insertAtEnd(const int value);
+void insertAtEnd(const int);
 void deleteAtEnd();
 void deleteAtBeginning();
-void deleteAtCurrent();
-void insertAtBeginning(const int value);
-void insertAtCurrent(const int value);
+void deleteAt(const int);
+void insertAtBeginning(const int);
+void insertAt(const int, const int);
 
 #endif //IV_SEM_SINGLYLINKEDLIST_H
