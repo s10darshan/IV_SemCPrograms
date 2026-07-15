@@ -11,9 +11,9 @@ typedef struct DNode {
 } DNode;
 
 
-DNode* createDNode(const int);
-void insertFront(const int);
-void insertBack(const int);
+DNode* createDNode(int);
+void insertFront(int);
+void insertBack(int);
 void deleteFront();
 void deleteBack();
 void displayForward();

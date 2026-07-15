@@ -4,15 +4,11 @@
 
 int main() {
         insertAtEnd(10);
-        printf("InsertAtEnd ");
         insertAtEnd(20);
-        printf("InsertAtEnd ");
         insertAtEnd(-54);
-        printf("InsertAtEnd ");
         insertAtEnd(0);
-        printf("InsertAtEnd ");
         insertAtEnd(-1204);
-        printf("InsertAtEnd ");
+        printf("InsertAtEnd: ");
         displayList();
 
         insertAtBeginning(7223);

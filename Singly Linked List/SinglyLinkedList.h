@@ -4,6 +4,8 @@
 
 #ifndef IV_SEM_SINGLYLINKEDLIST_H
 #define IV_SEM_SINGLYLINKEDLIST_H
+
+#define null NULL
 typedef struct Node {
     int data;
     struct Node* next;
