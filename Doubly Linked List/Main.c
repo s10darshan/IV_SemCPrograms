@@ -10,14 +10,14 @@ int main(){
             insertFront(1234);
             insertFront(-55);
 
-            displayBackward();
             displayForward();
+            displayBackward();
             
             deleteBack();
             deleteFront();
             
-            displayBackward();
             displayForward();
+            displayBackward();
 
             return 0;
 }
