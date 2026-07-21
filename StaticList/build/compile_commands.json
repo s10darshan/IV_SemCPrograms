@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/StaticList.dir/Main.c.o -c /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/Main.c",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/Main.c",
+  "output": "CMakeFiles/StaticList.dir/Main.c.o"
+},
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/StaticList.dir/StaticList.c.o -c /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/StaticList.c",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/StaticList/StaticList.c",
+  "output": "CMakeFiles/StaticList.dir/StaticList.c.o"
+}
+]
