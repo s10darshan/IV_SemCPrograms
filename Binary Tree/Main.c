@@ -20,5 +20,7 @@ int main(){
             printf("\nTotal number of nodes: %d", node_count(root));
 
 			printf("\nHeight of tree: %d", height_of_tree(root));
+
+            printf("\n");
             return 0;
 }

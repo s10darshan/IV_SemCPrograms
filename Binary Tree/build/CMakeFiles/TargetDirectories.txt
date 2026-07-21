@@ -1,0 +1,3 @@
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/Binary_Tree.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/edit_cache.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/rebuild_cache.dir

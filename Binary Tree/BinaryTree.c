@@ -9,7 +9,7 @@ int height_of_tree(const Node* root) {
 			int left = height_of_tree(root->left);
 			int right = height_of_tree(root->right);
 
-			return 1 + (left > right)? left : right;
+                        return 1 + (left > right ? left : right);
 }
 
 int node_count(const Node *root) {

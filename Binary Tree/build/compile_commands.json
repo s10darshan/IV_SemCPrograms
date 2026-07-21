@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Binary_Tree.dir/Main.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c",
+  "output": "CMakeFiles/Binary_Tree.dir/Main.c.o"
+},
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c",
+  "output": "CMakeFiles/Binary_Tree.dir/BinaryTree.c.o"
+}
+]
