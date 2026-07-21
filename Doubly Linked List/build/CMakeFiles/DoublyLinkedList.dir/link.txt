@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\DoublyLinkedList.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\DoublyLinkedList.dir/objects.a @CMakeFiles\DoublyLinkedList.dir\objects1.rsp
-C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\DoublyLinkedList.dir/objects.a -Wl,--no-whole-archive -o DoublyLinkedList.exe -Wl,--out-implib,libDoublyLinkedList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DoublyLinkedList.dir\linkLibs.rsp
+/usr/lib64/ccache/gcc -g -Wl,--dependency-file=CMakeFiles/DoublyLinkedList.dir/link.d CMakeFiles/DoublyLinkedList.dir/Main.c.o CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.o -o DoublyLinkedList

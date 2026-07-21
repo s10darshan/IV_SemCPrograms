@@ -1,3 +1,3 @@
-D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/DoublyLinkedList.dir
-D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/edit_cache.dir
-D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/rebuild_cache.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/DoublyLinkedList.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/edit_cache.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build/CMakeFiles/rebuild_cache.dir

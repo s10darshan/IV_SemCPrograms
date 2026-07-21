@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build/cmake_install.cmake"
+		"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

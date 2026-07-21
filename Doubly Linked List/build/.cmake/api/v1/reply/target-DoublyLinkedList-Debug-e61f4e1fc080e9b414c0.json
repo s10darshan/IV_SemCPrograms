@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "DoublyLinkedList.exe"
-		},
-		{
-			"path" : "DoublyLinkedList.pdb"
+			"path" : "DoublyLinkedList"
 		}
 	],
 	"backtrace" : 1,
@@ -70,16 +67,12 @@
 			{
 				"fragment" : "-g",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "DoublyLinkedList",
-	"nameOnDisk" : "DoublyLinkedList.exe",
+	"nameOnDisk" : "DoublyLinkedList",
 	"paths" : 
 	{
 		"build" : ".",

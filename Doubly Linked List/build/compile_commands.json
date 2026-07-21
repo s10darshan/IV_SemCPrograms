@@ -1,14 +1,14 @@
 [
 {
-  "directory": "D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\DoublyLinkedList.dir\\Main.c.obj -c \"D:\\VSCode\\C\\IV_SemCPrograms\\Doubly Linked List\\Main.c\"",
-  "file": "D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/Main.c",
-  "output": "CMakeFiles/DoublyLinkedList.dir/Main.c.obj"
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/DoublyLinkedList.dir/Main.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/Main.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/Main.c",
+  "output": "CMakeFiles/DoublyLinkedList.dir/Main.c.o"
 },
 {
-  "directory": "D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\DoublyLinkedList.dir\\DoublyLinkedList.c.obj -c \"D:\\VSCode\\C\\IV_SemCPrograms\\Doubly Linked List\\DoublyLinkedList.c\"",
-  "file": "D:/VSCode/C/IV_SemCPrograms/Doubly Linked List/DoublyLinkedList.c",
-  "output": "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.obj"
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/DoublyLinkedList.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Doubly Linked List/DoublyLinkedList.c",
+  "output": "CMakeFiles/DoublyLinkedList.dir/DoublyLinkedList.c.o"
 }
 ]
