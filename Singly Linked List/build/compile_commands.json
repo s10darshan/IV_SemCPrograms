@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Singly_Linked_List.dir/Main.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/Main.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/Main.c",
+  "output": "CMakeFiles/Singly_Linked_List.dir/Main.c.o"
+},
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Singly_Linked_List.dir/SinglyLinkedList.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/SinglyLinkedList.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Singly Linked List/SinglyLinkedList.c",
+  "output": "CMakeFiles/Singly_Linked_List.dir/SinglyLinkedList.c.o"
+}
+]

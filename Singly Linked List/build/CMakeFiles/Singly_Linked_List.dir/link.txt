@@ -1,0 +1,1 @@
+/usr/lib64/ccache/gcc -g -Wl,--dependency-file=CMakeFiles/Singly_Linked_List.dir/link.d CMakeFiles/Singly_Linked_List.dir/Main.c.o CMakeFiles/Singly_Linked_List.dir/SinglyLinkedList.c.o -o Singly_Linked_List

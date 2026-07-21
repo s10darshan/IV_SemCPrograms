@@ -1,0 +1,3 @@
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/build/CMakeFiles/Priority_Queue.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/build/CMakeFiles/edit_cache.dir
+/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/build/CMakeFiles/rebuild_cache.dir

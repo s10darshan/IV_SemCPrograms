@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Priority_Queue.dir/main.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/main.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/main.c",
+  "output": "CMakeFiles/Priority_Queue.dir/main.c.o"
+},
+{
+  "directory": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/build",
+  "command": "/usr/lib64/ccache/gcc   -g -o CMakeFiles/Priority_Queue.dir/PriorityQueue.c.o -c \"/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/PriorityQueue.c\"",
+  "file": "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Priority Queue/PriorityQueue.c",
+  "output": "CMakeFiles/Priority_Queue.dir/PriorityQueue.c.o"
+}
+]
