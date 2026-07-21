@@ -1,6 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include "BinaryTree.h"
+
+int height_of_tree(const Node* root) {
+			if (root == NULL) return 0;
+
+			int left = height_of_tree(root->left);
+			int right = height_of_tree(root->right);
+
+			return 1 + (left > right)? left : right;
+}
+
+int node_count(const Node *root) {
+			if (root == NULL)	return 0;
+
+			return 1 + node_count(root->left) + node_count(root->right);
+}
 
 Node* new_node(const int data){
             Node* newNode = malloc(sizeof(Node));

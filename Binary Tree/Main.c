@@ -17,6 +17,8 @@ int main(){
             printf("\nPost-order traversal: ");
             post_order(root);
 
-            printf("\n");
+            printf("\nTotal number of nodes: %d", node_count(root));
+
+			printf("\nHeight of tree: %d", height_of_tree(root));
             return 0;
 }

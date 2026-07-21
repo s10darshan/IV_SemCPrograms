@@ -10,9 +10,11 @@ typedef struct Node{
 }Node;
 
 Node* new_node(int);
-void in_order(Node*);
-void post_order(Node*);
-void pre_order(Node*);
+void in_order(const Node*);
+void post_order(const Node*);
+void pre_order(const Node*);
+int node_count(const Node*);
+int height_of_tree(const Node*);
 
 #endif 
 
