@@ -10,6 +10,7 @@ typedef struct Node{
 }Node;
 
 Node* new_node(int);
+Node* build_bst(void);
 void in_order(const Node*);
 void post_order(const Node*);
 void pre_order(const Node*);
