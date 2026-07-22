@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include "BinaryTree.h"
 
 int height_of_tree(const Node* root) {
