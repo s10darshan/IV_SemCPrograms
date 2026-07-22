@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree"
+CMAKE_SOURCE_DIR = "/home/sdarshan/Documents/vscode/C/Binary Tree"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build"
+CMAKE_BINARY_DIR = "/home/sdarshan/Documents/vscode/C/Binary Tree/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Binary_Tree.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/Binary_Tree.dir/codegen:
 .PHONY : CMakeFiles/Binary_Tree.dir/codegen
 
 CMakeFiles/Binary_Tree.dir/Main.c.o: CMakeFiles/Binary_Tree.dir/flags.make
-CMakeFiles/Binary_Tree.dir/Main.c.o: /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary\ Tree/Main.c
+CMakeFiles/Binary_Tree.dir/Main.c.o: /home/sdarshan/Documents/vscode/C/Binary\ Tree/Main.c
 CMakeFiles/Binary_Tree.dir/Main.c.o: CMakeFiles/Binary_Tree.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Binary_Tree.dir/Main.c.o"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Binary_Tree.dir/Main.c.o -MF CMakeFiles/Binary_Tree.dir/Main.c.o.d -o CMakeFiles/Binary_Tree.dir/Main.c.o -c "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Binary_Tree.dir/Main.c.o"
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Binary_Tree.dir/Main.c.o -MF CMakeFiles/Binary_Tree.dir/Main.c.o.d -o CMakeFiles/Binary_Tree.dir/Main.c.o -c "/home/sdarshan/Documents/vscode/C/Binary Tree/Main.c"
 
 CMakeFiles/Binary_Tree.dir/Main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Binary_Tree.dir/Main.c.i"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c" > CMakeFiles/Binary_Tree.dir/Main.c.i
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/sdarshan/Documents/vscode/C/Binary Tree/Main.c" > CMakeFiles/Binary_Tree.dir/Main.c.i
 
 CMakeFiles/Binary_Tree.dir/Main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Binary_Tree.dir/Main.c.s"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c" -o CMakeFiles/Binary_Tree.dir/Main.c.s
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/sdarshan/Documents/vscode/C/Binary Tree/Main.c" -o CMakeFiles/Binary_Tree.dir/Main.c.s
 
 CMakeFiles/Binary_Tree.dir/BinaryTree.c.o: CMakeFiles/Binary_Tree.dir/flags.make
-CMakeFiles/Binary_Tree.dir/BinaryTree.c.o: /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary\ Tree/BinaryTree.c
+CMakeFiles/Binary_Tree.dir/BinaryTree.c.o: /home/sdarshan/Documents/vscode/C/Binary\ Tree/BinaryTree.c
 CMakeFiles/Binary_Tree.dir/BinaryTree.c.o: CMakeFiles/Binary_Tree.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Binary_Tree.dir/BinaryTree.c.o"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -MF CMakeFiles/Binary_Tree.dir/BinaryTree.c.o.d -o CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -c "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Binary_Tree.dir/BinaryTree.c.o"
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -MF CMakeFiles/Binary_Tree.dir/BinaryTree.c.o.d -o CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -c "/home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.c"
 
 CMakeFiles/Binary_Tree.dir/BinaryTree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Binary_Tree.dir/BinaryTree.c.i"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c" > CMakeFiles/Binary_Tree.dir/BinaryTree.c.i
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.c" > CMakeFiles/Binary_Tree.dir/BinaryTree.c.i
 
 CMakeFiles/Binary_Tree.dir/BinaryTree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Binary_Tree.dir/BinaryTree.c.s"
-	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c" -o CMakeFiles/Binary_Tree.dir/BinaryTree.c.s
+	/usr/lib64/ccache/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.c" -o CMakeFiles/Binary_Tree.dir/BinaryTree.c.s
 
 # Object files for target Binary_Tree
 Binary_Tree_OBJECTS = \
@@ -113,7 +113,7 @@ Binary_Tree: CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
 Binary_Tree: CMakeFiles/Binary_Tree.dir/build.make
 Binary_Tree: CMakeFiles/Binary_Tree.dir/compiler_depend.ts
 Binary_Tree: CMakeFiles/Binary_Tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Binary_Tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Binary_Tree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Binary_Tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/Binary_Tree.dir/clean:
 .PHONY : CMakeFiles/Binary_Tree.dir/clean
 
 CMakeFiles/Binary_Tree.dir/depend:
-	cd "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree" "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree" "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build" "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build" "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/Binary_Tree.dir/DependInfo.cmake" "--color=$(COLOR)" Binary_Tree
+	cd "/home/sdarshan/Documents/vscode/C/Binary Tree/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sdarshan/Documents/vscode/C/Binary Tree" "/home/sdarshan/Documents/vscode/C/Binary Tree" "/home/sdarshan/Documents/vscode/C/Binary Tree/build" "/home/sdarshan/Documents/vscode/C/Binary Tree/build" "/home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles/Binary_Tree.dir/DependInfo.cmake" "--color=$(COLOR)" Binary_Tree
 .PHONY : CMakeFiles/Binary_Tree.dir/depend
 

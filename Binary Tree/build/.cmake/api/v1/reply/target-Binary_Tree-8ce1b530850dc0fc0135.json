@@ -37,12 +37,6 @@
 	"compileGroups" : 
 	[
 		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-g"
-				}
-			],
 			"language" : "C",
 			"languageStandard" : 
 			{
@@ -62,13 +56,6 @@
 	"id" : "Binary_Tree::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			}
-		],
 		"language" : "C"
 	},
 	"name" : "Binary_Tree",

@@ -1,1 +1,1 @@
-/usr/lib64/ccache/gcc -g -Wl,--dependency-file=CMakeFiles/Binary_Tree.dir/link.d CMakeFiles/Binary_Tree.dir/Main.c.o CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -o Binary_Tree
+/usr/lib64/ccache/gcc -Wl,--dependency-file=CMakeFiles/Binary_Tree.dir/link.d CMakeFiles/Binary_Tree.dir/Main.c.o CMakeFiles/Binary_Tree.dir/BinaryTree.c.o -o Binary_Tree

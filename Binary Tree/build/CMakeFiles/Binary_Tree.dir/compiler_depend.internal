@@ -18,12 +18,12 @@ Binary_Tree
  /usr/lib/gcc/x86_64-redhat-linux/16/libgcc_s_asneeded.so
  /usr/lib64/libatomic.so.1.2.0
  /usr/lib64/libc_nonshared.a
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/build/CMakeFiles/Binary_Tree.dir/Main.c.o
+ /home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
+ /home/sdarshan/Documents/vscode/C/Binary Tree/build/CMakeFiles/Binary_Tree.dir/Main.c.o
 
 CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.h
+ /home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.c
+ /home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.h
  /usr/include/alloca.h
  /usr/include/bits/atomic_wide_counter.h
  /usr/include/bits/byteswap.h
@@ -31,18 +31,8 @@ CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
  /usr/include/bits/endianness.h
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
- /usr/include/bits/flt-eval-method.h
- /usr/include/bits/fp-fast.h
- /usr/include/bits/fp-logb.h
- /usr/include/bits/iscanonical.h
  /usr/include/bits/libc-header-start.h
- /usr/include/bits/libm-simd-decl-stubs.h
  /usr/include/bits/long-double.h
- /usr/include/bits/math-vector.h
- /usr/include/bits/mathcalls-helper-functions.h
- /usr/include/bits/mathcalls-macros.h
- /usr/include/bits/mathcalls-narrow.h
- /usr/include/bits/mathcalls.h
  /usr/include/bits/pthreadtypes-arch.h
  /usr/include/bits/pthreadtypes.h
  /usr/include/bits/select.h
@@ -81,7 +71,6 @@ CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
  /usr/include/features.h
  /usr/include/gnu/stubs-64.h
  /usr/include/gnu/stubs.h
- /usr/include/math.h
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
@@ -92,8 +81,8 @@ CMakeFiles/Binary_Tree.dir/BinaryTree.c.o
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h
 
 CMakeFiles/Binary_Tree.dir/Main.c.o
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.h
+ /home/sdarshan/Documents/vscode/C/Binary Tree/Main.c
+ /home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.h
  /usr/include/bits/floatn-common.h
  /usr/include/bits/floatn.h
  /usr/include/bits/libc-header-start.h

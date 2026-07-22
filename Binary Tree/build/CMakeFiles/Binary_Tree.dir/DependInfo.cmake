@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/BinaryTree.c" "CMakeFiles/Binary_Tree.dir/BinaryTree.c.o" "gcc" "CMakeFiles/Binary_Tree.dir/BinaryTree.c.o.d"
-  "/home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary Tree/Main.c" "CMakeFiles/Binary_Tree.dir/Main.c.o" "gcc" "CMakeFiles/Binary_Tree.dir/Main.c.o.d"
+  "/home/sdarshan/Documents/vscode/C/Binary Tree/BinaryTree.c" "CMakeFiles/Binary_Tree.dir/BinaryTree.c.o" "gcc" "CMakeFiles/Binary_Tree.dir/BinaryTree.c.o.d"
+  "/home/sdarshan/Documents/vscode/C/Binary Tree/Main.c" "CMakeFiles/Binary_Tree.dir/Main.c.o" "gcc" "CMakeFiles/Binary_Tree.dir/Main.c.o.d"
   "" "Binary_Tree" "gcc" "CMakeFiles/Binary_Tree.dir/link.d"
   )
 

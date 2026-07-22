@@ -1,7 +1,7 @@
 CMakeFiles/Binary_Tree.dir/Main.c.o: \
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary\ Tree/Main.c \
+ /home/sdarshan/Documents/vscode/C/Binary\ Tree/Main.c \
  /usr/include/stdc-predef.h \
- /home/sdarshan/Documents/vscode/C/IV_SemCPrograms/Binary\ Tree/BinaryTree.h \
+ /home/sdarshan/Documents/vscode/C/Binary\ Tree/BinaryTree.h \
  /usr/lib/gcc/x86_64-redhat-linux/16/include/stddef.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
