@@ -2,11 +2,7 @@
 #include <stdio.h>
 
 int main(){
-            Node *root = new_node(1);
-            root->left = new_node(2);
-            root->right = new_node(3);
-            root->left->left = new_node(4);
-            root->left->right = new_node(5);
+            Node *root = build_bst();
 
             printf("\nIn-order traversal: ");
             in_order(root);

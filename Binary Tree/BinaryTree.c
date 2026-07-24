@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include "BinaryTree.h"
 
 int height_of_tree(const Node* root) {
@@ -50,4 +49,32 @@ void pre_order(const Node *root){
             pre_order(root->left);
             pre_order(root->right);
             printf("%d ", root->data);
+}
+
+static Node* bst_insert(Node *root, const int data){
+            if (root == NULL) return new_node(data);
+
+            if (data < root->data) {
+                    root->left = bst_insert(root->left, data);
+            } else {
+                    root->right = bst_insert(root->right, data);
+            }
+
+            return root;
+}
+
+Node* build_bst(void){
+            Node *root = NULL;
+            int data;
+
+            printf("Enter BST values (-1 to stop):\n");
+            while(1){
+                    printf("Enter data:\n> ");
+                    if (scanf("%d", &data) != 1) break;
+                    if (data == -1) break;
+
+                    root = bst_insert(root, data);
+            }
+
+            return root;
 }
