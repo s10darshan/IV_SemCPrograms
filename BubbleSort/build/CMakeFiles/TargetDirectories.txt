@@ -1,3 +1,0 @@
-D:/VSCode/C/IV_SemCPrograms/BubbleSort/build/CMakeFiles/BubbleSort.dir
-D:/VSCode/C/IV_SemCPrograms/BubbleSort/build/CMakeFiles/edit_cache.dir
-D:/VSCode/C/IV_SemCPrograms/BubbleSort/build/CMakeFiles/rebuild_cache.dir
