@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/VSCode/C/IV_SemCPrograms/BubbleSort/build",
+  "command": "C:/msys64/mingw32/bin/gcc.exe   -g -o CMakeFiles/BubbleSort.dir/Main.c.obj -c D:/VSCode/C/IV_SemCPrograms/BubbleSort/Main.c",
+  "file": "D:/VSCode/C/IV_SemCPrograms/BubbleSort/Main.c",
+  "output": "CMakeFiles/BubbleSort.dir/Main.c.obj"
+}
+]
