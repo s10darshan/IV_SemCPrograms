@@ -1,24 +1,24 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-typedef struct AdjEdge AdjEdge;
+typedef struct Edge Edge;
 /* Linked List that stores adjacent edges of the vertex */
-struct AdjEdge{
+struct Edge{
         int destination, weight;
-        AdjEdge* next;
+        Edge* next;
 };
 
 /* elements of array: contains the head pointer to above linked list */
-typedef struct AdjEdgeList {
-        AdjEdge* head;
-}AdjEdgeList;
+typedef struct EdgeList {
+        Edge* head;
+}EdgeList;
 
 typedef struct Graph{
         int vertex_count;     /* no. of vertices */
-        AdjEdgeList* array;     /* the array of edges connected to/from the edges */
+        EdgeList* array;     /* the array of edges connected to/from the edges */
 }Graph;
 
-AdjEdge* newEdge(int,int);
+Edge* newEdge(int,int);
 void createGraph(int);
 void addEdge();
 

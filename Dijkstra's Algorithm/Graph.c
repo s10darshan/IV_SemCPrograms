@@ -9,8 +9,10 @@ void createGraph(const int vCount){
                     return;
             }
             new_graph->vertex_count = vCount;
-            new_graph->array = (AdjEdgeList*) malloc(sizeof(AdjEdgeList));
+            new_graph->array = (EdgeList*) malloc(sizeof(EdgeList));
             for (int i = 0; i < vCount; i++)
                         new_graph->array[i].head = NULL;
             return new_graph;
 }
+
+
