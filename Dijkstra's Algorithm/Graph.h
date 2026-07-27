@@ -14,9 +14,9 @@ typedef struct AdjEdgeList {
 }AdjEdgeList;
 
 typedef struct Graph{
-        int vertex;     /* the actual vertex */
+        int vertex_count;     /* no. of vertices */
         AdjEdgeList* array;     /* the array of edges connected to/from the edges */
-};
+}Graph;
 
 AdjEdge* newEdge(int,int);
 void createGraph(int);
