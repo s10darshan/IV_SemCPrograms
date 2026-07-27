@@ -18,7 +18,7 @@ typedef struct Graph{
         AdjEdgeList* array;     /* the array of edges connected to/from the edges */
 };
 
-
+AdjEdge* newEdge(int,int);
 void createGraph(int);
 void addEdge();
 
