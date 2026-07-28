@@ -46,3 +46,9 @@ int get_optimal_vertex(MinPriorityQ* q){
             q->size--;
             return minIndex;
 }
+
+
+void dec_priority(MinPriorityQ* q, const int vertex, 
+                const int new_distance){
+                    q->items[vertex].bestDistance = new_distance;
+}
