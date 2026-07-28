@@ -16,5 +16,5 @@ typedef struct MinPriorityQ {
 MinPriorityQ* create_queue(int);
 bool is_Qempty(MinPriorityQ*);
 int get_optimal_vertex(MinPriorityQ*);
-
+void new_best_distance(MinPriorityQ*, const int vertex, int);
 #endif
