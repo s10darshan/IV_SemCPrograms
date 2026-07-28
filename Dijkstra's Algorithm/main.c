@@ -2,16 +2,10 @@
 #include <math.h>
 
 #include "Graph.h"
-#include "MinHeap.h"
+#include "MinPriorityQ.h"
 #include "Dijkstra.h"
 
 
-
-// void dijkstra(int graph[][], int source){
-                
-// }
-
-
 int main(){
-                return 0;
+            return 0;
 }
