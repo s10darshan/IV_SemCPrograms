@@ -5,4 +5,10 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(Dijkstra_Algorithm 
                 main.c
+                Graph.c
+                Graph.h
+                MinPriorityQ.c
+                MinPriorityQ.h
+                Dijkstra.c
+                Dijkstra.h
 )

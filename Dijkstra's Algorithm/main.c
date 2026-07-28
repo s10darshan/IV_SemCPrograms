@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <math.h>
+
 #include "Graph.h"
+#include "MinHeap.h"
 #include "Dijkstra.h"
-#define INFINITY 1e9
 
 
 
