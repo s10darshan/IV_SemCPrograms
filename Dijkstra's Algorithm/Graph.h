@@ -4,7 +4,7 @@
 typedef struct Edge Edge;
 /* Linked List that stores adjacent edges of the vertex */
 struct Edge{
-        int destination, weight;
+        int destin, weight;
         Edge* next;
 };
 
