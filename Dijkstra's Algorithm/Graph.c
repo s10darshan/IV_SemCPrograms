@@ -3,7 +3,7 @@
 #include "Graph.h"
 
 Edge* newEdge(const int destination, const int weight){
-        Edge* new_edge = (Edge*)malloc(sizeof(Edge*));
+        Edge* new_edge = (Edge*)malloc(sizeof(Edge));
         if( new_edge == NULL){
                 fprintf(stderr, "\n--->Unable to create new edge.<---\n");
                 return NULL;
@@ -16,14 +16,14 @@ Edge* newEdge(const int destination, const int weight){
 
 }
 
-void createGraph(const int vCount){
+Graph* createGraph(const int vCount){
         Graph* new_graph = (Graph*) malloc(sizeof(Graph));
         if(new_graph == NULL){
                 fprintf(stderr, "\n--->Unable to create new graph.<---\n");
-                return;
+                return NULL;
         }
         new_graph->vertex_count = vCount;
-        new_graph->array = (EdgeList*) malloc(sizeof(EdgeList));
+        new_graph->array = (EdgeList*) malloc(vCount * sizeof(EdgeList));
         for (int i = 0; i < vCount; i++)
                 new_graph->array[i].head = NULL;
         return new_graph;
