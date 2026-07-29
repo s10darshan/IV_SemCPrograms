@@ -13,8 +13,10 @@ typedef struct MinPriorityQ {
         QItems* items;
 }MinPriorityQ; 
 
-MinPriorityQ* create_queue(int);
+MinPriorityQ* create_queue(int); /* func() paramater: vertex_count */
 bool is_Qempty(MinPriorityQ*);
 int get_optimal_vertex_distance(MinPriorityQ*);
-void new_best_distance(MinPriorityQ*, int, int);
+
+ /* func parameters: queue, the vertex, new best_distance */
+void new_best_distance(MinPriorityQ*, int, int); 
 #endif
