@@ -4,8 +4,10 @@
 #include "Graph.h"
 #include "MinPriorityQ.h"
 
-void printArr(int dist[], const int vertex_count){
-
+void printArr(const int dist[], const int vertex_count){
+                printf("Vertex \t Distance from Source\n");
+                for (int i = 0; i < vertex_count; ++i)
+                        printf("%d \t\t %d\n", i, dist[i]);
 }
 
 void dijkstra(const Graph* graph, const int src){
