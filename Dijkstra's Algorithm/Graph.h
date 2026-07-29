@@ -19,7 +19,7 @@ typedef struct Graph{
 }Graph;
 
 Edge* newEdge(int,int);
-void createGraph(int);
+Graph* createGraph(int);
 void addEdge();
 
 #endif
