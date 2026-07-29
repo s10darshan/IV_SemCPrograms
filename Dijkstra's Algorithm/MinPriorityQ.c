@@ -31,7 +31,7 @@ MinPriorityQ* create_queue(const int vertex_count){
 
 bool is_Qempty(MinPriorityQ* q){ return q->size == 0; }
 
-int get_optimal_vertex(MinPriorityQ* q){
+int get_optimal_vertex_distance(MinPriorityQ* q){
             int min_distance = INFINITY;
             int minIndex = -1; /* -1 indicates unreachable vertex */
 
