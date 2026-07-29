@@ -20,6 +20,6 @@ typedef struct Graph{
 
 Edge* newEdge(int,int);
 Graph* createGraph(int);
-void addEdge();
+void addEdge(Graph*,int , int, int);
 
 #endif
