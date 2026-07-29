@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include "Graph.h"
 #include "MinPriorityQ.h"
 
@@ -15,7 +14,7 @@ void dijkstra(const Graph* graph, const int src){
 
             /* dist[] needed for storing the optimal path to all vertices. */
             int dist[V];
-            for ( int i = 0; i < 0; i++) dist[i] = INFINITY;
+            for ( int i = 0; i < V; i++) dist[i] = __INT_MAX__;
             dist[src] = 0;
 
 
@@ -33,7 +32,7 @@ void dijkstra(const Graph* graph, const int src){
                             const int destin_of_highest_v = edge_of_highest_v->destin;
 
                             bool is_destin_in_queue = q->items[destin_of_highest_v].boolInQueue;
-                            bool is_wt_of_highest_v_finite =  dist[highest_v] != INFINITY;
+                            bool is_wt_of_highest_v_finite =  dist[highest_v] != __INT_MAX__;
 
                             /* is the new best distance smaller than the one in the graph? */
                             bool is_newDist_lessThan_currentDist = (dist[highest_v] + edge_of_highest_v->weight )<

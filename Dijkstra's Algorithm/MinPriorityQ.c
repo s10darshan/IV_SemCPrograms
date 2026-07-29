@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 #include "MinPriorityQ.h"
 
 MinPriorityQ* create_queue(const int vertex_count){
@@ -22,7 +21,7 @@ MinPriorityQ* create_queue(const int vertex_count){
 
             for (int v = 0; v < vertex_count; v++){
                     new_queue->items[v].vertex = v;
-                    new_queue->items[v].bestDistance = INFINITY;
+                    new_queue->items[v].bestDistance = __INT_MAX__;
                     new_queue->items[v].boolInQueue = true;
             }
 
@@ -32,21 +31,22 @@ MinPriorityQ* create_queue(const int vertex_count){
 bool is_Qempty(MinPriorityQ* q){ return q->size == 0; }
 
 int get_optimal_vertex_distance(MinPriorityQ* q){
-            int min_distance = INFINITY;
-            int minIndex = -1; /* -1 indicates unreachable vertex */
+                int min_distance = __INT_MAX__;
+                int minIndex = -1; /* -1 indicates unreachable vertex */
 
-            for(int v = 0; v < q->capacity; v++){
+                for(int v = 0; v < q->capacity; v++){
                         if( q->items[v].boolInQueue &&
-                            q->items[v].bestDistance < min_distance){
-                                    min_distance = q->items[v].bestDistance;
-                                    minIndex = v;
+                                q->items[v].bestDistance < min_distance){
+                                        min_distance = q->items[v].bestDistance;
+                                        minIndex = v;
                         }
-            }
-            q->items[minIndex].boolInQueue = false;
-            q->size--;
-            return minIndex;
-}
+                }
 
+                if (minIndex == -1) return -1;
+                q->items[minIndex].boolInQueue = false;
+                q->size--;
+                return minIndex;
+}
 
 void new_best_distance(MinPriorityQ* q, const int vertex, 
                 const int new_distance){
