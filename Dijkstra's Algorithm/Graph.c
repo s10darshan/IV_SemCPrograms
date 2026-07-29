@@ -32,7 +32,7 @@ Graph* createGraph(const int vCount){
 void addEdge(Graph* graph, const int src_vertex, 
                 const int destin_vertex, const int weight){
 
-        Edge* new_edge = newEdge(src_vertex, weight);
+        Edge* new_edge = newEdge(destin_vertex, weight);
         if(new_edge == NULL){
                 fprintf(stderr, "\n--->Unable to add a enw edge.<---\n");
                 return;
@@ -44,7 +44,7 @@ void addEdge(Graph* graph, const int src_vertex,
         /*      adding the same edge to the destination vertex
                 becuase an edge connects two vertices
         */
-        new_edge = newEdge(destin_vertex, weight);
+        new_edge = newEdge(src_vertex, weight);
         new_edge->next = graph->array[destin_vertex].head;
         graph->array[destin_vertex].head = new_edge;
         
